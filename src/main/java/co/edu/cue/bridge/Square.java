@@ -1,2 +1,13 @@
-package co.edu.cue.bridge;public class Square {
+package co.edu.cue.bridge;
+
+class Square extends Shape {
+    public Square(Color color) {
+        super(color);
+    }
+
+    @Override
+    public void draw() {
+        System.out.print("Dibujando un cuadrado. ");
+        color.applyColor();
+    }
 }

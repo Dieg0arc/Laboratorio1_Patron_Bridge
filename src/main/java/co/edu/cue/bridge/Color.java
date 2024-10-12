@@ -1,2 +1,5 @@
-package co.edu.cue.bridge;public interface Color {
+package co.edu.cue.bridge;
+
+interface Color {
+    void applyColor(); // Método para aplicar el color
 }
